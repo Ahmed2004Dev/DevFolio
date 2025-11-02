@@ -230,3 +230,32 @@ nav li a {
 }
 
 /* ************* e-Services ************ */
+
+/* ************** s-Data-w ************* */
+.data-w {
+    background-color: var(--back-section);
+}
+
+.data-w .inner {
+    background: linear-gradient(rgb(0, 120, 255, .7) 50%, rgb(0, 120, 255, .7) 50%), url(../images/data-w.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 100px 0;
+    padding-bottom: 100px;
+    min-height: 400px;
+}
+
+.item-dataw i {
+    border: 10px solid #CDE1F8;
+    font-size: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 250%;
+}
+
+/* ************** e-Data-w ************* */
