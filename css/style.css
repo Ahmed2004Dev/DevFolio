@@ -24,3 +24,134 @@ ul {
 }
 
 /* ************* e-Jeneral *************** */
+
+/* ************ s-section-header ********** */
+.section-header {
+    background: url(../images/header.jpg) no-repeat fixed;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.leyer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.leyer h3 {
+    font-size: 75px;
+    text-transform: capitalize;
+}
+
+/* *************** s-Nav *************** */
+.section-header .nav-s {
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 10000 !important;
+}
+
+.section-header .nav-s {
+    color: var(--wight-color);
+}
+
+.logo {
+    font-weight: 600;
+}
+
+nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    background-color: var(--wight-color);
+}
+
+nav ul li a:active::before,
+nav ul li a:focus::before,
+nav ul li a:hover::before {
+    width: 75%;
+}
+
+nav li a {
+    font-weight: 600;
+}
+
+.dropdown button {
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown button:hover {
+    background-color: transparent;
+    border: 0;
+}
+
+.nav-s .navbar-toggler i {
+    color: var(--wight-color);
+}
+
+.nav-s .navbar-toggler i:focus .nav-s .cont-ul-nav {
+    background-color: var(--wight-color);
+}
+
+@media screen and (min-width:100px) and (max-width:992px) {
+    .cont-ul-nav ul {
+        background-color: var(--wight-color);
+    }
+
+    .cont-ul-nav ul li a {
+        color: black !important;
+        transition: all .5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+    }
+
+    .cont-ul-nav ul li a:hover{
+        color:var(--main-color) !important;
+    }
+}
+
+.dropdown-item i {
+    color: #212529;
+}
+
+.ul-deep-inset {
+    left: 80%;
+    top: 25%;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .05);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.dropdown-left:hover+.ul-deep-inset {
+    position: absolute !important;
+    display: block !important;
+    transform: translatex(20%) !important;
+    -webkit-transform: translatex(20%) !important;
+    -moz-transform: translatex(20%) !important;
+    -ms-transform: translatex(20%) !important;
+    -o-transform: translatex(20%) !important;
+}
+
+/* *************** e-Nav *************** */
+
+
+/* ************ e-section-header ************ */
