@@ -327,3 +327,70 @@ nav li a {
 }
 
 /* *************** s-Card ************** */
+
+/* *************** s-Blog ************** */
+.travel-blog {
+    top: 50%;
+    left: 50%;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    height: 30px;
+    min-width: 15%;
+    font-size: 11px;
+    padding: 7.5px 15px;
+}
+
+@media screen and (max-width:650px) {
+    .travel-blog {
+        top: 62.5%;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .travel-blog {
+        top: 62.5%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .travel-blog {
+        top: 70%;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .travel-blog {
+        top: 57%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .travel-blog {
+        top: 64%;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .travel-blog {
+        top: 55%;
+    }
+}
+
+.ul-footer-blog li {
+    background-color: #F8F8F8 !important;
+}
+
+.left-blog div {
+    width: 10%;
+}
+
+/* *************** e-Blog ************** */
