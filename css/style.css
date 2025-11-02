@@ -394,3 +394,47 @@ nav li a {
 }
 
 /* *************** e-Blog ************** */
+
+/* ************* s-Contact ************* */
+.contact {
+    background: linear-gradient(rgb(0, 120, 255, .7) 50%, rgb(0, 120, 255, .7) 50%), url(../images/back-card.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 0;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    min-height: 600px;
+}
+
+.form-contact div input::placeholder {
+    text-transform: capitalize;
+    color: #7F7F7F;
+    font-size: 14px;
+}
+
+.ul-2-contact i {
+    border: 3px solid var(--main-color);
+    width: 43px;
+    height: 43px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.ul-2-contact li:hover i {
+    background-color: var(--main-color);
+    border-color: #CDE1F8;
+    color: var(--wight-color);
+    cursor: pointer;
+}
+
+/* ************* s-Contact ************* */
