@@ -1,0 +1,26 @@
+/* ************* s-Jeneral ************* */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--back-section);
+}
+
+:root {
+    --main-color: #0078FF;
+    --back-color: rgb(0, 120, 255);
+    --wight-color: #fff;
+    --back-nav: rgba(0, 0, 0, .8);
+    --back-section: #F5F5F5;
+}
+
+.line-title-s {
+    background-color: var(--main-color);
+    width: 50px;
+    height: 5px;
+    margin: 0 auto 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ************* e-Jeneral *************** */
