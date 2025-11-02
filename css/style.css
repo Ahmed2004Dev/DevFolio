@@ -259,3 +259,43 @@ nav li a {
 }
 
 /* ************** e-Data-w ************* */
+
+/* ************ s-Portfolio ************ */
+
+.cont-img-po {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cont-img-port img {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.item-port:hover .cont-img-port img {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.cont-icon-port i {
+    border: 4px solid var(--main-color);
+    width: 40px;
+    height: 40px;
+    line-height: 33px;
+    text-align: center;
+    color: var(--main-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ************ e-Portfolio ************ */
